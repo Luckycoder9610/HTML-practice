@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 38px 0  38px;
+    position: absolute;
+    width: 100%;
+    z-index: 6;
+    }
+.home-img{
+    height: 85px;
+    width: 230px;
+}    
+header .left-bar a{
+    margin: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+header .right-bar a{
+    margin: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+main .backimg .img1{
+   z-index: -1;
+   display: flex;
+   justify-content: center;
+   transform-style: preserve-3d ;
+    width: 100%;
+  background-size: cover;
+ 
+ 
+
+}
+.wrapper{ height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 100px;
+
+}
+
+main{
+    transform: translateZ(-100px) scale(2.1);
+    
+}
+
+.background1{
+    transform: translateZ(-20px) scale(2);
+   position: absolute;
+   /* height: 100%; */
+   width: 100%;
+   /* object-fit: cover; */
+}
+.backimg2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: 2;
+}
+.foreground{
+    z-index: 40;
+    display: flex;
+}
+.foreimg{
+    height: 457px;
+    width: 457px;
+}
