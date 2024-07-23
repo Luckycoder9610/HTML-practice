@@ -80,6 +80,7 @@ main{
   
 }
 .foreimg{
+
     height: 800px;
     /* width: 550px; */
 }
@@ -96,10 +97,88 @@ font-size: 40px;
 .text-lable p {
 margin-top: 20px ;
 font-size: 20px;
-
+margin-bottom: 80px;
 
 }
 .text-lable h1{
     /* height: 550px; */
     margin-bottom: 46px;
 }
+
+.foreground a{
+text-decoration: none;
+color: white;
+border-bottom: 1px solid white;
+}
+
+.foreground a:hover{
+
+color: antiquewhite;
+
+}
+
+.white-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 200%;
+    transform-style: preserve-3d;
+    z-index: 3;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    transform: translateZ(-30) scale(2) ;
+}
+
+.foreground2{
+   
+    z-index: 40;
+display: flex;
+}
+
+.left-text{ 
+    margin-left: 80px;
+    margin-top: 200px;
+    font-family: 'basis-grotesque-off-white' !important;
+    color: black;
+    font-size: 40px;
+        flex-direction: column;
+        width: 519px; 
+
+}
+
+.left-text p{
+    margin-top: 20px ;
+    font-size: 20px;
+    margin-bottom: 80px;
+    
+}
+
+.left-text a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+
+
+}
+
+.left-text a:hover{
+color: rgb(119, 118, 118);
+
+}
+
+.sky-container 
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 200%;
+    transform-style: preserve-3d;
+    z-index: 3;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: blue; */
+    transform: translateZ(-30) scale(2) ;
+
+}
+
