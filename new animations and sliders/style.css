@@ -53,7 +53,7 @@ main .backimg .img1{
 }
 
 main{
-    transform: translateZ(-100px) scale(2.1);
+    transform: translateZ(-100px) scale(2);
     
 }
 
@@ -81,7 +81,7 @@ main{
 }
 .foreimg{
 
-    height: 800px;
+    height: 600px;
     /* width: 550px; */
 }
 
@@ -127,7 +127,7 @@ color: antiquewhite;
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    transform: translateZ(-30) scale(2) ;
+    transform: translateZ(-80) scale(2) ;
 }
 
 .foreground2{
@@ -167,18 +167,42 @@ color: rgb(119, 118, 118);
 
 }
 
-.sky-container 
-{
-    display: flex;
-    position: relative;
-    align-items: center;
-    height: 200%;
-    transform-style: preserve-3d;
-    z-index: 3;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: blue; */
-    transform: translateZ(-30) scale(2) ;
+
+
+.foreground3{
+
+position: absolute;
+display: flex;
 
 }
 
+.sky-container{
+    
+position: relative;
+/* z-index:-10 ; */
+ display: flex;   
+ transform-style: preserve-3d;
+ transform: translateZ(-70px) scale(2);
+height: 200%;
+
+}
+.background4{
+    position: absolute;
+    transform-style: preserve-3d;
+    transform: translateZ(-70px) scale(2);
+    height: 100%;
+    
+}
+.sky-img{
+    position: absolute;
+    z-index: 30;
+    height: 600px;
+    margin: 600px 0 0 200px;
+}
+.text-cont{
+    position: absolute;
+    z-index: 30;
+    /* display: flex; */
+    margin-left: 800px;
+    margin-top: 700px;
+}
